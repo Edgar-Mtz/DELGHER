@@ -1,3 +1,4 @@
+/*  Estilo General  */
 * 
 {
 
@@ -28,8 +29,8 @@ body
 .titulo 
 {
 
-    color: #642a73;
-    font-size: 30px;
+    color: #000000;
+    font-size: 38px;
     text-align: center;
     margin-bottom: 60px;
 
@@ -38,7 +39,6 @@ body
 
 
 /* Header */
-
 header 
 {
 
@@ -122,8 +122,7 @@ header .textos-header
 
 
 
-/* About us */
-
+/* Acerca de Nosotros */
 main .sobre-nosotros
 {
 
@@ -187,143 +186,7 @@ main .sobre-nosotros
 
 
 
-/* Galeria */
-
-
-.portafolio
-{
-
-    background: #f2f2f2;
-
-}
-
-.galeria-port
-{
-
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-}
-
-.imagen-port
-{
-
-    width: 24%;
-    margin-bottom: 10px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-
-}
-
-.imagen-port > img
-{
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-
-}
-
-.hover-galeria
-{
-
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
-    transition: transform .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.hover-galeria img
-{
-
-    width: 50px;
-
-}
-
-.hover-galeria p
-{
-
-    color: #fff;
-
-}
-
-.imagen-port:hover .hover-galeria
-{
-
-    transform: scale(1);
-
-}
-
-
-
-/* Clients */
-
-.cards
-{
-
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.cards .card
-{
-
-    background: #4d0686;
-    display: flex;
-    width: 46%;
-    height: 200px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-
-}
-
-.cards .card img
-{
-
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: block;
-
-}
-
-.cards .card > .contenido-texto-card
-{
-
-    width: 60%;
-    color: #fff;
-
-}
-
-.cards .card > .contenido-texto-card p
-{
-
-    font-weight: 300;
-    padding-top: 5px;
-
-}
-
-
-
-/*  Our team */
-
+/*  Servicios */
 .about-services
 {
 
@@ -376,6 +239,12 @@ main .sobre-nosotros
 
 
 /*Contacto*/
+.Contenido-Contacto
+{
+
+    padding-bottom: 30px;
+
+}
 
 .Contenido-Contacto h3 span
 {
@@ -436,9 +305,7 @@ main .sobre-nosotros
 
 
 
-/*
-Preguntas
-*/
+/*  Preguntas   */
 .Seccion-Preguntas
 {
 
@@ -490,13 +357,14 @@ input, textarea
 
 .P-Name, .P-Correo, .P-Asunto, .P-Mensaje, .P-Telefono
 {
+
     text-align: left;
     padding: 10px;
     color: whitesmoke;
     font-weight: bold;
     font-size: 25px;
-}
 
+}
 
 .btn
 {
@@ -512,23 +380,29 @@ input, textarea
 
 .btn-negro
 {
+
     color: white;
     background-color:  #575656;
+
 }
 
 .btn-negro:hover
 {
+
     background-color: #6b6868;
+
 }
 
 .btn-negro:active
 {
+
     background-color:  #3f3e3e;
+
 }
 
 
-/* footer */
 
+/* Pie de Pagina */
 footer
 {
 
@@ -618,10 +492,9 @@ footer
     
     }
 
+
     
-
-    /* servicios */
-
+    /* Servicios */
     .servicio-cont
     {
     
@@ -638,8 +511,7 @@ footer
     
     }
 
-    .servicio-ind:nth-child(1), 
-    .servicio-ind:nth-child(2)
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2)
     {
     
         margin-bottom: 60px;
@@ -653,7 +525,9 @@ footer
     
     }
 
-    /*Contacto */
+
+
+    /*  Contacto    */
     .contenedor-Datos-Contacto
     {
     
@@ -663,6 +537,29 @@ footer
     
     }
 
+    .contenedor-Datos-Contacto iframe
+    {
+
+        width: 90%;
+
+    }
+
+
+    
+    /*  Preguntas    */
+    form
+    {
+
+        width: 90%;
+
+    }
+
+    .field
+    {
+
+        width: 90%;
+
+    }
 }
 
 @media screen and (max-width:500px)
@@ -699,8 +596,7 @@ footer
 
     
 
-    /* ABOUT US */
-
+    /* Acerca de Nosotros */
     .imagen-about-us
     {
     
@@ -718,8 +614,7 @@ footer
 
 
 
-    /* Footer */
-
+    /* Pie de Pagina */
     .contenedor-footer
     {
     

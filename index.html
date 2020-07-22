@@ -19,6 +19,7 @@
 
     <header>
         
+        <!--Menú-->
         <nav>
             
             <a href="#Cabecerar">Inicio</a>
@@ -28,6 +29,7 @@
 
         </nav>
 
+        <!--Cabecera-->
         <section id = "Cabecera" class="textos-header">
 
             <h1>GRUPO DELGHER S.C.</h1>
@@ -35,6 +37,7 @@
             
         </section>
 
+        <!--Curva-->
         <div class="wave" style="height: 150px; overflow: hidden;">
             
             <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
@@ -51,6 +54,7 @@
 
     <main>
 
+        <!--Acerca de Nosotros-->
         <section id = "Acerca de Nosotros" class="contenedor sobre-nosotros">
 
             <h2 class="titulo">¿Quienes Somos?</h2>
@@ -61,34 +65,9 @@
                 
                 <div class="contenido-textos">
 
-                    <!--<h3>
-                        <span>1</span>Acerca de Nosotros
-                    </h3>-->
-
                     <p>
                         Somos una empresa constituida legalmente y 100 % mexicana ofreciendo servicios de alta calidad, en seguridad privada. Tenemos una amplia gama de servicios que brindan soluciones a nuestros clientes, buscando que cada uno de nuestros colaboradores se desarrollen tanto en el aspecto profesional como familiar brindándoles la seguridad de estar en una empresa responsable y confiable. Nuestra empresa se basa en lineamientos y requerimientos de la sociedad apegándose siempre a la normalidad y proporcionando la satisfacción total de las necesidades de los clientes, empresas, así como también de los condominios que requieran de nuestros servicios. 
                     </p>
-
-
-                    <!--<h3>
-                        <span>2</span>Misión
-                    </h3>
-                    
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
-                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
-                        velit doloribus laboriosam ut.
-                    </p>
-
-                    <h3>
-                        <span>3</span>Visión
-                    </h3>
-                    
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
-                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
-                        velit doloribus laboriosam ut.
-                    </p>-->
 
                 </div>
 
@@ -96,11 +75,12 @@
 
         </section>
 
+        <!--Servicios-->
         <section id = "Nuestros Servicios" class="about-services">
             
             <div class="contenedor">
                 
-                <h2 class="titulo">Nuestros servicios</h2>
+                <h2 class="titulo">Nuestros Servicios</h2>
 
                 <div class="servicio-cont">
 
@@ -154,7 +134,8 @@
             </div>
 
         </section>
-
+        
+        <!--Contacto-->
         <section id = "Contacto" class="Contenido-Contacto">
 
             <h2 class="titulo">Contacto</h2>
@@ -203,33 +184,33 @@
     
                 </div>
     
-                
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1349686591698!2d-99.16983768504542!3d19.406573546540997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff15356bbb85%3A0xef3bf49c9775ef76!2sTuxpan%2010%2C%20Roma%20Sur%2C%20Cuauht%C3%A9moc%2C%2006760%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1595275263509!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         
             </div>
+            
 
         </section>
 
+        <!--Preguntas-->
         <section id = "Preguntas" class = "Seccion-Preguntas">
 
-            <h2 class="titulo">Preguntas</h2>
+            <div class = "contenedor">
 
-            <div class = "texto-Preguntas">
+                <h2 class="titulo">Preguntas</h2>
 
-                <p>
-                    Para todo tipo de preguntas, comentarios e inquietudes; por favor llámanos: <b>52641908</b> o <b>completa el formulario</b> a continuación:
-                </p>
+                <div class = "texto-Preguntas">
 
-                <br/>
-                <br/>
-
-                <div>
-
+                    <p>
+                        Para todo tipo de preguntas, comentarios e inquietudes; por favor llámanos: <b>52641908</b> o <b>completa el formulario</b> a continuación:
+                    </p>
+    
+                    <br/>
+    
                     <form action="Correo.php" method = "POST">
 
                         <p class = "P-Name">Nombre:</p>
                         <input type = "text" class = "field" name = "Nombre" id = "Nombre" placeholder="Nombre *"> <br/>
-                     
+                        
                         <p class = "P-Correo">Correo:</p>
                         <input type = "text" class = "field" name = "Email" id = "Email" placeholder="Email *"> <br/>
 
@@ -244,58 +225,54 @@
                         
                         <br/>
                         <br/>
-                           
+                            
                         <p>
                             <input type = "submit" class = "btn btn-negro" value = "Eviar Datos">
                         </p>
-                        <button type = "submit">Enviar</button>
-
 
                     </form>
-
-
+    
+                   
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
             </div>
-
-
-
-
-
+            
         </section>
-
-
 
     </main>
 
+    <!--Pie de Pagina-->
     <footer>
+
         <div class="contenedor-footer">
+
             <div class="content-foo">
+            
                 <h4>Telefono</h4>
-                <p>8296312</p>
+                <p>(55)4287 3878</p>
+            
             </div>
+            
             <div class="content-foo">
+            
                 <h4>Correo</h4>
-                <p>8296312</p>
+                <p>Claudia@delgher.mx</p>
+            
             </div>
+            
             <div class="content-foo">
+
                 <h4>Locazión</h4>
-                <p>8296312</p>
+                <p>Tuxpan No. 10, Despacho 401-402, Col. Roma Sur, <br>Alcaldía de Cuauhtémoc <br>C.P. 06700 CDMX</p>
+
             </div>
+        
         </div>
+        
         <h2 class="titulo-final">2020 &copy; GRUPO DELGHER S.C.</h2>
+    
     </footer>
+
 </body>
 
 </html>
