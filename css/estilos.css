@@ -184,6 +184,39 @@ main .sobre-nosotros
 
 }
 
+.Quienes-Somos
+{
+    background: #f2f2f2;
+}
+
+.texto-Permiso
+{
+
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.img-Permiso
+{
+
+    text-align: center;
+
+}
+
+
+.texto-Quienes-Somos
+{
+
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
 
 
 /*  Servicios */
@@ -492,6 +525,13 @@ footer
     
     }
 
+    .Permiso-img
+    {
+
+        width: 90%;
+
+    }
+
 
     
     /* Servicios */
@@ -545,7 +585,7 @@ footer
     }
 
 
-    
+
     /*  Preguntas    */
     form
     {
