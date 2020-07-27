@@ -485,7 +485,15 @@ footer
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
+    text-align: center;
 
+}
+
+footer img
+{
+
+    width: 15%;
+    
 }
 
 .contenedor-footer
